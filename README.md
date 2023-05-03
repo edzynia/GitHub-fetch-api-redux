@@ -1,12 +1,12 @@
 # NoA code challenge
 
-Preview: https://effulgent-souffle-4d9265.netlify.app/
+Preview: https://git-hub-fetch-api-redux.vercel.app/
 
 Requirements: [PDF Document](./docs/NoA_challenge.pdf)
 
 ## Used Technologies
 
-- main: React
+- main: React, Redux
 - code hosting: GitHub
 - deploing hosting: Netlify
 
@@ -37,9 +37,8 @@ src/
             Slide.js
         Slider/
             Slider.js
-    shared/
-        -- Constants used in the project
-        constants.js
+    redux/
+    config.js
     App.css
     App.js
     index.js
@@ -70,7 +69,7 @@ src/
 - for the state management of the application and for implementation of the app I used modern React
 - I tried to distribute the code between different components as much as possible to make it easier to build unit tests
 
-## Server 
+## Server
 
 - We do not have a server side in the application, but we can)
 
